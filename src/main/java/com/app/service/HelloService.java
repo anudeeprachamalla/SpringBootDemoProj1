@@ -14,6 +14,6 @@ public class HelloService {
 	}
 
 	public List<User> getUsers() {
-		return List.of(new User(101, "anudeepRachamalla"), new User(102, "swethaRachamalla"));
+		return List.of(new User(101, "anudeepRachamalla"), new User(102, "swethaRachamalla"),new User(103, "sandeepRachamalla"));
 	}
 }

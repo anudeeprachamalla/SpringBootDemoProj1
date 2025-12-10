@@ -13,6 +13,8 @@ public class UserTest {
 	public void testUser() {
 		logger.info("Test case executing");
 		logger.info("Test case executing");
+		
+		logger.info("Test case for jenkins run");
 
 		assertEquals(true, true);
 	}
