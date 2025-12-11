@@ -13,7 +13,7 @@ public class HelloService {
 		return "welcome to Springboot Application";
 	}
 
-	public List<User> getUsers() {
+	public  getUsers() {
 		return List.of(new User(101, "anudeepRachamalla"), new User(102, "swethaRachamalla"),new User(103, "sandeepRachamalla"));
 	}
 }
